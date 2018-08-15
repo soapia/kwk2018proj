@@ -2,8 +2,8 @@
 //  LoginViewController.swift
 //  firebase test
 //
-//  Created by Sofia Ongele on 8/14/18.
-//  Copyright © 2018 Sofia Ongele. All rights reserved.
+//  Created by Valeria Torres-Olivares on 8/14/18.
+//  Copyright © 2018 Valeria Torres-Olivares. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,10 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+       // email.delegate = self
+      //  password.delegate = self
+        
         // Do any additional setup after loading the view.
     }
 
@@ -39,7 +42,20 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        email.resignFirstResponder()
+        password.resignFirstResponder()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        //or
+        //self.view.endEditing(true)
+        return true
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -51,3 +67,14 @@ class LoginViewController: UIViewController {
     */
 
 }
+
+//extension ViewController : UITextFieldDelegate {
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//
+//        textField.resignFirstResponder()
+//        //or
+//        //self.view.endEditing(true)
+//        return true
+//    }
+
+//}

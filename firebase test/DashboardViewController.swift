@@ -2,8 +2,8 @@
 //  DashboardViewController.swift
 //  firebase test
 //
-//  Created by Sofia Ongele on 8/15/18.
-//  Copyright © 2018 Sofia Ongele. All rights reserved.
+//  Created by Valeria Torres-Olivares on 8/15/18.
+//  Copyright © 2018 Valeria Torres-Olivares. All rights reserved.
 //
 
 import UIKit
