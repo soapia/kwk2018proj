@@ -18,6 +18,7 @@
 		189AEE9E2125CA1A001E50DF /* EdgeInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AEE9C2125CA19001E50DF /* EdgeInsetLabel.swift */; };
 		189AEE9F2125CA1A001E50DF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AEE9D2125CA19001E50DF /* RoundButton.swift */; };
 		189AEEA12125F5FF001E50DF /* TwitterFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AEEA02125F5FF001E50DF /* TwitterFeedsViewController.swift */; };
+		18EC6874212706350072191D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC6873212706350072191D /* MapViewController.swift */; };
 		4717FF054CFECA551E9FCABE /* Pods_firebase_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38194B62A153FCB219DDD86A /* Pods_firebase_test.framework */; };
 		B10AD503E6C944B4DC9A83A2 /* Pods_firebase_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31525436B0E716F1E8F33143 /* Pods_firebase_testTests.framework */; };
 		D9582A9A2123B7E5006D31DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9582A992123B7E5006D31DD /* AppDelegate.swift */; };
@@ -58,6 +59,7 @@
 		189AEE9C2125CA19001E50DF /* EdgeInsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EdgeInsetLabel.swift; path = ../../Downloads/Tabs/Tabs/EdgeInsetLabel.swift; sourceTree = "<group>"; };
 		189AEE9D2125CA19001E50DF /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = ../../Downloads/Tabs/Tabs/RoundButton.swift; sourceTree = "<group>"; };
 		189AEEA02125F5FF001E50DF /* TwitterFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedsViewController.swift; sourceTree = "<group>"; };
+		18EC6873212706350072191D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		31525436B0E716F1E8F33143 /* Pods_firebase_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38194B62A153FCB219DDD86A /* Pods_firebase_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E3FB87FA2D0E8A68C17E48 /* Pods-firebase test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebase test/Pods-firebase test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				D9582ABB2123B853006D31DD /* LoginViewController.swift */,
 				D9582ABF2123B87B006D31DD /* HomeViewController.swift */,
 				D9582ABD2123B869006D31DD /* SignUpViewController.swift */,
+				18EC6873212706350072191D /* MapViewController.swift */,
 				D9582AC32123EF3E006D31DD /* DashboardViewController.swift */,
 				D9582A9D2123B7E5006D31DD /* Main.storyboard */,
 				D9582AA02123B7E7006D31DD /* Assets.xcassets */,
@@ -353,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EC6874212706350072191D /* MapViewController.swift in Sources */,
 				189AEEA12125F5FF001E50DF /* TwitterFeedsViewController.swift in Sources */,
 				189AEE9F2125CA1A001E50DF /* RoundButton.swift in Sources */,
 				D9582ABC2123B853006D31DD /* LoginViewController.swift in Sources */,
